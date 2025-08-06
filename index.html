@@ -734,7 +734,7 @@
                 <button class="close-btn" data-modal="receipt-modal">×</button>
             </div>
             <div id="printable-receipt">
-                <h3>Fine Wears Stores</h3>
+                <h3>Gela Cosmetic Stores</h3>
                 <p>--------------------------------</p>
                 <p><strong>Invoice #:</strong> <span id="receipt-invoice"></span></p>
                 <p><strong>Date:</strong> <span id="receipt-date"></span></p>
@@ -903,12 +903,12 @@
     };
 
     function loadData() {
-        const data = localStorage.getItem('fineWearsDB');
+        const data = localStorage.getItem('gelacosmeticstoresDB');
         DB = data ? JSON.parse(data) : JSON.parse(JSON.stringify(initialData));
     }
 
     function saveData() {
-        localStorage.setItem('fineWearsDB', JSON.stringify(DB));
+        localStorage.setItem('gelacosmeticstoresDB', JSON.stringify(DB));
     }
 
     function formatCurrency(amount) {
@@ -1944,4 +1944,5 @@
 </body>
 
 </html>
+
 
