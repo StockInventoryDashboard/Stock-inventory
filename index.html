@@ -351,8 +351,8 @@
                 <li class="admin-only clerk-only"><a href="#" class="nav-link" data-page="page-sales">💰 Sales Management</a></li>
                 <li class="auditor-only"><a href="#" class="nav-link" data-page="page-sales-view">💰 Sales Log</a></li>
                 <li class="admin-only auditor-only"><a href="#" class="nav-link" data-page="page-purchases">🚚 Purchase History</a></li>
-                <li class="admin-only auditor-only"><a href="#" class="nav-link" data-page="page-pnl">📈 Profit & Loss</a></li>
                 <li class="admin-only auditor-only"><a href="#" class="nav-link" data-page="page-expenses">💸 Monthly Expenses</a></li>
+                <li class="admin-only auditor-only"><a href="#" class="nav-link" data-page="page-pnl">📈 Profit & Loss</a></li>
                 <li class="admin-only"><a href="#" class="nav-link" data-page="page-capital">🏦 Capital Tracker</a></li>
                 <li class="admin-only"><a href="#" class="nav-link" data-page="page-reports">📄 Reports & Analytics</a></li>
                 <li class="admin-only"><a href="#" class="nav-link" data-page="page-security">🔒 Security & Data</a></li>
@@ -376,13 +376,6 @@
                         <p class="value" id="db-total-sold">0</p>
                     </div>
                     <div class="card">
-                        <h3>Current Capital Balance</h3>
-                        <p class="value" id="db-capital-balance">₦0.00</p>
-                    </div>
-                    <div class="card">
-                        <h3>This Month's Profit/Loss</h3>
-                        <p class="value" id="db-monthly-profit">₦0.00</p>
-                    </div>
                 </div>
                 <h3>Trends</h3>
                 <div class="card-container">
@@ -806,7 +799,7 @@
             <h3>Current Staff</h3>
             <div class="table-container">
                 <table id="staff-table">
-                    <thead><tr><th>Name</th><th>Staff ID</th><th>Salary</th><th>Actions</th></tr></thead>
+                    <thead><tr><th>Name</th><th>Salary</th>Staff ID<th></th><th>Actions</th></tr></thead>
                     <tbody></tbody>
                 </table>
             </div>
@@ -1944,5 +1937,6 @@
 </body>
 
 </html>
+
 
 
